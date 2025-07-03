@@ -1,0 +1,62 @@
+Task-05: US Traffic Accident Analysis
+
+Objective
+
+Analyze US traffic accident data to identify patterns related to:
+
+Time of day
+
+Day of week
+
+Weather conditions
+
+City-level accident distribution
+
+Dataset
+
+The dataset used was from Kaggle's US Accident EDA project. It includes details like start time, city, weather condition, and more for millions of traffic accidents.
+
+Steps Performed
+
+1. Data Cleaning
+
+Parsed Start_Time into datetime format
+
+Extracted Hour, Day, and Month
+
+Removed unnecessary columns and handled missing values
+
+2. Exploratory Data Analysis (EDA)
+
+Accidents by Hour: Peak hours were 7–9 AM and 4–6 PM (rush hours)
+
+Accidents by Day: Friday showed a slight spike in number of accidents
+
+Weather Conditions: Most accidents happened during clear conditions, but rain and foggy conditions also contributed significantly
+
+City-Level Distribution: Cities like Los Angeles and Houston had the most reported accidents
+
+3. Visualizations
+
+Included:
+
+Bar plot of accident count by hour
+
+Count of accidents by weekday
+
+Top 10 weather conditions associated with accidents
+
+Top 10 cities with most accidents
+
+Key Findings
+
+Most accidents occur during commuting hours (morning and evening)
+
+Bad weather conditions like rain and fog increase accident frequency
+
+Large urban centers are hotspots due to traffic density
+
+Conclusion
+
+Traffic accidents show strong patterns with respect to time and weather. These insights can help local authorities take preventative measures during high-risk periods and under adverse weather conditions.
+
